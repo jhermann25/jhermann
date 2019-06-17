@@ -1,0 +1,95 @@
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+
+header {
+  background-color: #71880e;
+  padding: 20px;
+  text-align: left;
+  font-size: 35px;
+  color: white;
+}
+
+
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 75%;
+  background-color: white;
+
+}
+
+
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+footer {
+  background-color: #71880e;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+
+@media (max-width: 700px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #f1f1f1;
+  height: 100%; 
+   position: fixed;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #71880e;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  outline-style: dotted
+  ;outline-color: #71880e;
+  color: white;
+}
+
+.treahead {font-size: 65pt; font-family: Times New Roman; color: white; text-align: left}
+.treakettle {font-size: 40pt; font-family: Times New Roman; color: white; text-align: left}
+.subheader {font-size: 20pt; font-family: Times New Roman; color: #71880e; text-align: center}
+.names {font-size: 16pt; font-family: Times New Roman; color: #446600; text-align: left}
+.text {font-size: 14pt; font-family: Adobe Garamond Pro   ; text-align: left}
+.footerfollow {font-size: 15pt; font-family: Times New Roman; color: white; text-align: center}
+.navhed {font-size: 20pt; font-family: Times New Roman; color: white; text-align: center}
+.navtext {font-size: 17pt; font-family: Times New Roman; color: white; text-align: center}
+.author {font-size: 12pt; font-family: Times New Roman; color: gray; text-align: left}
